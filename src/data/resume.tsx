@@ -4,7 +4,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Aaqib Hakeem",
   initials: "AH",
-  url: "https://aaqib-hakeem.vercel.app",
+  url: "https://aaqibhakeem.vercel.app",
   location: "Electronic City, Bangalore, Karnataka",
   locationLink: "https://www.google.com/maps/place/ElectronicCity,Bangalore",
   description:
