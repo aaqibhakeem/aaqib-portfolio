@@ -120,8 +120,8 @@ export const DATA = {
       image: "/images/twilight.png",
     },
     {
-      title: "Argus",
-      href: "https://github.com/aaqibhakeem/Distributed-Logging-System",
+      title: "Project Argus",
+      href: "https://github.com/aaqibhakeem/Project_Argus",
       active: true,
       description:
         "Engineered a comprehensive distributed logging system for microservices that features log collection, a Kibana analytics dashboard for data visualization, and an integrated alerting and monitoring system. The architecture efficiently manages log data flow across distributed services, enabling real-time monitoring and proactive system maintenance.",
@@ -135,7 +135,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/aaqibhakeem/Distributed-Logging-System",
+          href: "https://github.com/aaqibhakeem/Project_Argus",
           icon: <Icons.github className="size-3" />,
         },
       ],
