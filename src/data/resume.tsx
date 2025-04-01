@@ -53,7 +53,7 @@ export const DATA = {
       },
       Resume: {
         name: "Resume",
-        url: "Resume/Aaqib_Resume_v1.pdf",
+        url: "Resume/Aaqib_Resume_v2.pdf",
         icon: Icons.resume,
         navbar: true,
       },
@@ -61,6 +61,18 @@ export const DATA = {
   },
 
   work: [
+    {
+      company: "Nuvikronix Tech",
+      href: "https://nuvikronix.vercel.app",
+      badges: [],
+      location: "Bangalore, Karnataka",
+      title: "Software Development Intern",
+      logoUrl: "/images/nuvikronix.jpg",
+      start: "Mar 2025",
+      end: "April 2025",
+      description:
+        "I developed a comprehensive digital presence for the client, with their website serving as the centerpiece of our collaboration. While the website was the primary deliverable, the engagement naturally expanded to include strategic digital solutions that enhanced their overall online footprint. The work involved understanding their core business objectives and implementing technical elements that would support their long-term digital goals, beyond just the visible front-end components.",
+    },
     {
       company: "MCSRDC, HAL",
       href: "https://hal-india.co.in",
@@ -118,6 +130,27 @@ export const DATA = {
         },
       ],
       image: "/images/twilight.png",
+    },
+    {
+      title: "Hyperion",
+      href: "https://nuvikronix.vercel.app/",
+      active: true,
+      description:
+        "A cutting-edge web platform for Nuvikronix Technologies, showcasing their revolutionary quantum computing solutions for the fintech industry.",
+      technologies: ["Next.js", "Tailwind CSS", "Vercel"],
+      links: [
+        {
+          type: "Website",
+          href: "https://nuvikronix.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/aaqibhakeem/Hyperion",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/images/hyperion.png",
     },
     {
       title: "Project Argus",
