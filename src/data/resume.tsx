@@ -53,7 +53,7 @@ export const DATA = {
       },
       Resume: {
         name: "Resume",
-        url: "Resume/Aaqib_Resume_v2.pdf",
+        url: "Resume/Aaqib_Resume_v3.pdf",
         icon: Icons.resume,
         navbar: true,
       },
