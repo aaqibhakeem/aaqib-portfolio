@@ -110,6 +110,27 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Boardroom",
+      href: "https://boardroomhq.vercel.app/",
+      active: true,
+      description:
+        "A complete modern educational platform with multi-tier user authentication, comprehensive academic management tools, and integrated communication systems for seamless institutional operations.",
+      technologies: ["Next.js", "Tailwind CSS", "PostgreSQL", "Prisma", "Clerk", "Render", "Vercel"],
+      links: [
+        {
+          type: "Website",
+          href: "https://boardroomhq.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/aaqibhakeem/Boardroom",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/images/boardroom.png",
+    },
+    {
       title: "Twilight",
       href: "https://github.com/aaqibhakeem/Twilight",
       active: true,
