@@ -110,7 +110,7 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Boardroom",
+      title: "Project Boardroom",
       href: "https://boardroomhq.vercel.app/",
       active: true,
       description:
@@ -131,7 +131,7 @@ export const DATA = {
       image: "/images/boardroom.png",
     },
     {
-      title: "Twilight",
+      title: "Project Twilight",
       href: "https://github.com/aaqibhakeem/Twilight",
       active: true,
       description:
@@ -153,7 +153,7 @@ export const DATA = {
       image: "/images/twilight.png",
     },
     {
-      title: "Hyperion",
+      title: "Project Hyperion",
       href: "https://nuvikronix.vercel.app/",
       active: true,
       description:
@@ -217,25 +217,20 @@ export const DATA = {
       image: "/images/noodl.png",
     },
     {
-      title: "Kannada Koota Website",
-      href: "https://kannada-koota-ecc.vercel.app/",
+      title: "Project Kairos",
+      href: "https://github.com/aaqibhakeem/Kairos",
       active: true,
       description:
-        "Developed and launched the official Kannada Koota PESU website, providing a digital platform to showcase events and activities, enhancing community engagement.",
-      technologies: ["Next.js", "Tailwind CSS", "MongoDB", "Vercel"],
+        "A containerized URL shortening service using Node.js, Redis, Docker, and Kubernetes. Designed a RESTful API with Redis for low-latency lookups, containerized services with Docker, and deployed on Kubernetes for scalability, reliability, and performance testing under load.",
+      technologies: ["Docker", "Kubernetes", "Redis", "Node.js", "PowerShell"],
       links: [
         {
-          type: "Website",
-          href: "https://kannada-koota-ecc.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
           type: "Source",
-          href: "https://github.com/aaqibhakeem/kannada_koota",
+          href: "https://github.com/aaqibhakeem/Kairos",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/images/kk_website.png",
+      image: "/images/kairos.png",
     },
   ],
 } as const;
